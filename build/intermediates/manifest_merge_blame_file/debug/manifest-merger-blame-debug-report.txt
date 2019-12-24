@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.map.lyn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->G:\Gaode15\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->G:\Gaode15\app\src\main\AndroidManifest.xml
+10    <!-- 允许程序打开网络套接字 -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->G:\Gaode15\app\src\main\AndroidManifest.xml:5:5-67
+11-->G:\Gaode15\app\src\main\AndroidManifest.xml:5:22-64
+12    <!-- 允许程序设置内置sd卡的写权限 -->
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->G:\Gaode15\app\src\main\AndroidManifest.xml:7:5-81
+13-->G:\Gaode15\app\src\main\AndroidManifest.xml:7:22-78
+14    <!-- 允许程序获取网络状态 -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->G:\Gaode15\app\src\main\AndroidManifest.xml:9:5-79
+15-->G:\Gaode15\app\src\main\AndroidManifest.xml:9:22-76
+16    <!-- 允许程序访问WiFi网络信息 -->
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->G:\Gaode15\app\src\main\AndroidManifest.xml:11:5-76
+17-->G:\Gaode15\app\src\main\AndroidManifest.xml:11:22-73
+18    <!-- 允许程序读写手机状态和身份 -->
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:5-75
+19-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:22-72
+20    <!-- 用于进行网络定位 -->
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->G:\Gaode15\app\src\main\AndroidManifest.xml:15:5-97
+21-->G:\Gaode15\app\src\main\AndroidManifest.xml:15:22-78
+22    <!-- 用于访问GPS定位 -->
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->G:\Gaode15\app\src\main\AndroidManifest.xml:17:5-95
+23-->G:\Gaode15\app\src\main\AndroidManifest.xml:17:22-76
+24    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+25-->G:\Gaode15\app\src\main\AndroidManifest.xml:19:5-92
+25-->G:\Gaode15\app\src\main\AndroidManifest.xml:19:22-73
+26    <!-- 用于读取手机当前的状态 -->
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:5-75
+27-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:22-72
+28    <!-- 用于申请调用A-GPS模块 -->
+29    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+29-->G:\Gaode15\app\src\main\AndroidManifest.xml:23:5-88
+29-->G:\Gaode15\app\src\main\AndroidManifest.xml:23:22-86
+30    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->G:\Gaode15\app\src\main\AndroidManifest.xml:9:5-79
+31-->G:\Gaode15\app\src\main\AndroidManifest.xml:9:22-76
+32    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->G:\Gaode15\app\src\main\AndroidManifest.xml:11:5-76
+33-->G:\Gaode15\app\src\main\AndroidManifest.xml:11:22-73
+34    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->G:\Gaode15\app\src\main\AndroidManifest.xml:19:5-92
+35-->G:\Gaode15\app\src\main\AndroidManifest.xml:19:22-73
+36    <!-- 用于访问网络，网络定位需要上网 -->
+37    <uses-permission android:name="android.permission.INTERNET" />
+37-->G:\Gaode15\app\src\main\AndroidManifest.xml:5:5-67
+37-->G:\Gaode15\app\src\main\AndroidManifest.xml:5:22-64
+38    <!-- 用于读取手机当前的状态 -->
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:5-75
+39-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:22-72
+40    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+41    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+41-->G:\Gaode15\app\src\main\AndroidManifest.xml:7:5-81
+41-->G:\Gaode15\app\src\main\AndroidManifest.xml:7:22-78
+42    <uses-permission android:name="android.permission.GET_TASKS" />
+42-->G:\Gaode15\app\src\main\AndroidManifest.xml:36:5-70
+42-->G:\Gaode15\app\src\main\AndroidManifest.xml:36:23-68
+43
+44    <!-- 允许程序打开网络套接字 -->
+45    <uses-permission android:name="android.permission.INTERNET" />
+45-->G:\Gaode15\app\src\main\AndroidManifest.xml:5:5-67
+45-->G:\Gaode15\app\src\main\AndroidManifest.xml:5:22-64
+46    <!-- 允许程序设置内置sd卡的写权限 -->
+47    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+47-->G:\Gaode15\app\src\main\AndroidManifest.xml:7:5-81
+47-->G:\Gaode15\app\src\main\AndroidManifest.xml:7:22-78
+48    <!-- 允许程序获取网络状态 -->
+49    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+49-->G:\Gaode15\app\src\main\AndroidManifest.xml:9:5-79
+49-->G:\Gaode15\app\src\main\AndroidManifest.xml:9:22-76
+50    <!-- 允许程序访问WiFi网络信息 -->
+51    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+51-->G:\Gaode15\app\src\main\AndroidManifest.xml:11:5-76
+51-->G:\Gaode15\app\src\main\AndroidManifest.xml:11:22-73
+52    <!-- 允许程序读写手机状态和身份 -->
+53    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+53-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:5-75
+53-->G:\Gaode15\app\src\main\AndroidManifest.xml:13:22-72
+54    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+55    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+55-->G:\Gaode15\app\src\main\AndroidManifest.xml:15:5-97
+55-->G:\Gaode15\app\src\main\AndroidManifest.xml:15:22-78
+56
+57    <application
+57-->G:\Gaode15\app\src\main\AndroidManifest.xml:51:5-68:19
+58        android:allowBackup="true"
+58-->G:\Gaode15\app\src\main\AndroidManifest.xml:52:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.0.1] D:\gradle-5.4.1\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+60        android:debuggable="true"
+61        android:icon="@mipmap/ic_launcher"
+61-->G:\Gaode15\app\src\main\AndroidManifest.xml:53:9-43
+62        android:label="@string/app_name"
+62-->G:\Gaode15\app\src\main\AndroidManifest.xml:54:9-41
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->G:\Gaode15\app\src\main\AndroidManifest.xml:55:9-54
+64        android:supportsRtl="true"
+64-->G:\Gaode15\app\src\main\AndroidManifest.xml:56:9-35
+65        android:testOnly="true"
+66        android:theme="@style/AppTheme" >
+66-->G:\Gaode15\app\src\main\AndroidManifest.xml:57:9-40
+67        <meta-data
+67-->G:\Gaode15\app\src\main\AndroidManifest.xml:58:9-59:64
+68            android:name="com.amap.api.v2.apikey"
+68-->G:\Gaode15\app\src\main\AndroidManifest.xml:58:20-57
+69            android:value="6098fd62d0197276d37a0e7f6638b28f" />
+69-->G:\Gaode15\app\src\main\AndroidManifest.xml:59:13-61
+70
+71        <service android:name="com.amap.api.location.APSService" />
+71-->G:\Gaode15\app\src\main\AndroidManifest.xml:60:9-76
+71-->G:\Gaode15\app\src\main\AndroidManifest.xml:60:18-65
+72
+73        <activity android:name="com.map.lyn.MainActivity" >
+73-->G:\Gaode15\app\src\main\AndroidManifest.xml:61:9-67:20
+73-->G:\Gaode15\app\src\main\AndroidManifest.xml:61:19-47
+74            <intent-filter>
+74-->G:\Gaode15\app\src\main\AndroidManifest.xml:62:13-66:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->G:\Gaode15\app\src\main\AndroidManifest.xml:63:17-69
+75-->G:\Gaode15\app\src\main\AndroidManifest.xml:63:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->G:\Gaode15\app\src\main\AndroidManifest.xml:65:17-77
+77-->G:\Gaode15\app\src\main\AndroidManifest.xml:65:27-74
+78            </intent-filter>
+79        </activity>
+80    </application>
+81
+82</manifest>
